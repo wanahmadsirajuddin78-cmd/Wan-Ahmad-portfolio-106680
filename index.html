@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Wan Ahmad Sirajuddin Bin Wan Abdul Hamid, Networking Student.">
+    <title>Wan Ahmad | Networking Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">WAN AHMAD<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navLinks" class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">PERSONAL PORTFOLIO</p>
+
+                <h1>
+                    Wan Ahmad Sirajuddin
+                    <span>Bin Wan Abdul Hamid</span>
+                </h1>
+
+                <h2>Networking Student</h2>
+
+                <p class="hero-description">
+                    I am a networking student passionate about computer
+                    networks, network infrastructure and information
+                    technology. I am developing my technical knowledge
+                    to pursue a future career in network engineering.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore Projects ↗
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get in Touch
+                    </a>
+                </div>
+
+                <p class="location">📍 Malaysia · Networking & IT</p>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-circle">
+                    <div class="network-icon">⌘</div>
+                    <span class="orbit orbit-one"></span>
+                    <span class="orbit orbit-two"></span>
+                </div>
+
+                <div class="floating-card">
+                    <span class="status-dot"></span>
+                    Learning. Building. Connecting.
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">INTRODUCTION</p>
+                <h2>About Me</h2>
+                <p>Get to know me and my learning journey.</p>
+            </div>
+
+            <div class="about-grid">
+                <article class="about-card">
+                    <h3>Who Am I?</h3>
+
+                    <p>
+                        Hi! My name is Wan Ahmad Sirajuddin Bin Wan Abdul
+                        Hamid. I am a networking student interested in
+                        understanding how computer networks connect
+                        devices and allow information to be shared.
+                    </p>
+
+                    <p>
+                        I am working towards improving my technical
+                        abilities in networking, troubleshooting,
+                        network configuration and web technologies.
+                        I believe continuous learning and practical
+                        experience are important for my future career.
+                    </p>
+                </article>
+
+                <article class="about-card information-card">
+                    <h3>Personal Information</h3>
+
+                    <div class="info-row">
+                        <span>Name</span>
+                        <strong>Wan Ahmad Sirajuddin Bin Wan Abdul Hamid</strong>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Field</span>
+                        <strong>Computer Networking</strong>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Occupation</span>
+                        <strong>Student</strong>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Career Goal</span>
+                        <strong>Network Engineer</strong>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section section-alt">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I AM LEARNING</p>
+                <h2>Core Technical Skills</h2>
+                <p>My areas of study and technical interests.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Computer Networking</h3>
+                    <p>
+                        Network fundamentals, IP addressing,
+                        LAN and network topologies.
+                    </p>
+                    <span class="tag">Networking</span>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🖧</div>
+                    <h3>Network Configuration</h3>
+                    <p>
+                        Learning about routers, switches,
+                        connectivity and troubleshooting.
+                    </p>
+                    <span class="tag">Infrastructure</span>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🔐</div>
+                    <h3>Network Security</h3>
+                    <p>
+                        Understanding security fundamentals
+                        and safer network practices.
+                    </p>
+                    <span class="tag">Cybersecurity</span>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Building web pages with HTML,
+                        CSS and JavaScript.
+                    </p>
+                    <span class="tag">HTML · CSS · JS</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">MY LEARNING JOURNEY</p>
+                <h2>Selected Works</h2>
+                <p>Networking and web development projects.</p>
+            </div>
+
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">
+                    All Work
+                </button>
+                <button class="filter-btn" data-filter="networking">
+                    Networking
+                </button>
+                <button class="filter-btn" data-filter="security">
+                    Security
+                </button>
+                <button class="filter-btn" data-filter="web">
+                    Web Development
+                </button>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" data-category="networking">
+                    <div class="project-art art-blue">
+                        <span>01</span>
+                        <div class="project-symbol">⌘</div>
+                        <p>NETWORK TOPOLOGY</p>
+                    </div>
+
+                    <div class="project-body">
+                        <p class="project-type">NETWORKING</p>
+                        <h3>Network Topology Design</h3>
+                        <p>
+                            A learning project exploring how devices
+                            connect within a network and how a basic
+                            network topology can be planned.
+                        </p>
+                        <div class="tags">
+                            <span>LAN</span>
+                            <span>Topology</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="security">
+                    <div class="project-art art-purple">
+                        <span>02</span>
+                        <div class="project-symbol">⌑</div>
+                        <p>NETWORK SECURITY</p>
+                    </div>
+
+                    <div class="project-body">
+                        <p class="project-type">SECURITY</p>
+                        <h3>Network Security Study</h3>
+                        <p>
+                            A study of basic network security principles,
+                            common risks and practices for protecting
+                            connected devices.
+                        </p>
+                        <div class="tags">
+                            <span>Security</span>
+                            <span>Research</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <div class="project-art art-green">
+                        <span>03</span>
+                        <div class="project-symbol">&lt;/&gt;</div>
+                        <p>PERSONAL PORTFOLIO</p>
+                    </div>
+
+                    <div class="project-body">
+                        <p class="project-type">WEB DEVELOPMENT</p>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            A responsive personal website built to
+                            introduce myself, present my interests
+                            and demonstrate JavaScript interaction.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <p class="project-note">
+                Note: The project descriptions above are examples.
+                Update them to reflect work you have actually completed.
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section section-alt">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Get in Touch</h2>
+                <p>Have a question or want to connect? Send me a message.</p>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name"
+                           placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email"
+                           placeholder="you@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" rows="5"
+                              placeholder="Write your message..."
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Send Message ↗
+                </button>
+
+                <p id="formResponse" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">WAN AHMAD<span>.</span></a>
+        <p>Networking Student | Personal Portfolio</p>
+        <p>
+            &copy; <span id="year"></span>
+            Wan Ahmad Sirajuddin Bin Wan Abdul Hamid.
+        </p>
+        <a href="#home" class="back-top">Back to top ↑</a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
